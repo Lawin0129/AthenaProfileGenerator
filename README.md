@@ -8,3 +8,5 @@ Made for fortnite backends (fortnite private servers)
 3) Run "start.bat" to generate the profile.
 4) Once it's finished, it will save as a json inside the current directory with the name "athena.json".
 5) Now you're ready to use it on a fortnite backend!
+
+This generator uses [fortnite-api](https://fortnite-api.com/).
