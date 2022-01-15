@@ -1,0 +1,30 @@
+{
+  "name": "athenaprofilegenerator",
+  "version": "1.0.0",
+  "description": "A fortnite athena profile generator made for fortnite backends (LawinServer, etc...)",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lawin0129/AthenaProfileGenerator.git"
+  },
+  "keywords": [
+    "fortnite",
+    "athena",
+    "profile"
+  ],
+  "author": "Lawin0129",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Lawin0129/AthenaProfileGenerator/issues"
+  },
+  "homepage": "https://github.com/Lawin0129/AthenaProfileGenerator#readme"
+}
