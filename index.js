@@ -24,17 +24,20 @@ axios.get("https://fortnite-api.com/v2/cosmetics/br").then(resp => {
             })
         }
 
-        athena.items[id] = {
-            "templateId": id,
-            "attributes": {
-                "max_level_bonus": 0,
-                "level": 1,
-                "item_seen": true,
-                "xp": 0,
-                "variants": variants,
-                "favorite": false
-            },
-            "quantity": 1
+        // Dont add anything that includes "random" in the id (Chapter 1 Season 4 and 5 crash fix)
+        if (!item.id.toLowerCase().includes("random")) {
+            athena.items[id] = {
+                "templateId": id,
+                "attributes": {
+                    "max_level_bonus": 0,
+                    "level": 1,
+                    "item_seen": true,
+                    "xp": 0,
+                    "variants": variants,
+                    "favorite": false
+                },
+                "quantity": 1
+            }
         }
     })
 
