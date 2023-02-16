@@ -1,0 +1,170 @@
+{
+  "created": "",
+  "updated": "",
+  "rvn": 0,
+  "wipeNumber": 1,
+  "accountId": "",
+  "profileId": "athena",
+  "version": "no_version",
+  "items": {
+    "loadout1": {
+      "templateId": "CosmeticLocker:cosmeticlocker_athena",
+      "attributes": {
+        "locker_slots_data": {
+          "slots": {
+            "MusicPack": {
+              "items": [
+                ""
+              ]
+            },
+            "Character": {
+              "items": [
+                ""
+              ],
+              "activeVariants": [
+                null
+              ]
+            },
+            "Backpack": {
+              "items": [
+                ""
+              ],
+              "activeVariants": [
+                null
+              ]
+            },
+            "SkyDiveContrail": {
+              "items": [
+                ""
+              ],
+              "activeVariants": [
+                null
+              ]
+            },
+            "Dance": {
+              "items": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            "LoadingScreen": {
+              "items": [
+                ""
+              ]
+            },
+            "Pickaxe": {
+              "items": [
+                ""
+              ],
+              "activeVariants": [
+                null
+              ]
+            },
+            "Glider": {
+              "items": [
+                ""
+              ],
+              "activeVariants": [
+                null
+              ]
+            },
+            "ItemWrap": {
+              "items": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "activeVariants": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            }
+          }
+        },
+        "use_count": 0,
+        "banner_icon_template": "StandardBanner1",
+        "banner_color_template": "DefaultColor1",
+        "locker_name": "",
+        "item_seen": false,
+        "favorite": false
+      },
+      "quantity": 1
+    }
+  },
+  "stats": {
+    "attributes": {
+      "past_seasons": [],
+      "season_match_boost": 999999999,
+      "loadouts": [
+        "loadout1"
+      ],
+      "favorite_victorypose": "",
+      "mfa_reward_claimed": false,
+      "quest_manager": {
+        "dailyLoginInterval": "",
+        "dailyQuestRerolls": 1
+      },
+      "book_level": 100,
+      "season_num": 0,
+      "favorite_consumableemote": "",
+      "banner_color": "DefaultColor1",
+      "favorite_callingcard": "",
+      "favorite_character": "",
+      "favorite_spray": [],
+      "book_xp": 100,
+      "favorite_loadingscreen": "",
+      "book_purchased": true,
+      "lifetime_wins": 100,
+      "favorite_hat": "",
+      "level": 100,
+      "favorite_battlebus": "",
+      "favorite_mapmarker": "",
+      "favorite_vehicledeco": "",
+      "accountLevel": 100,
+      "favorite_backpack": "",
+      "favorite_dance": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "inventory_limit_bonus": 0,
+      "last_applied_loadout": "",
+      "favorite_skydivecontrail": "",
+      "favorite_pickaxe": "",
+      "favorite_glider": "",
+      "daily_rewards": {},
+      "xp": 999,
+      "season_friend_match_boost": 999999999,
+      "active_loadout_index": 0,
+      "favorite_musicpack": "",
+      "banner_icon": "StandardBanner1",
+      "favorite_itemwraps": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
+  },
+  "commandRevision": 0
+}
