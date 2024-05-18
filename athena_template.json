@@ -103,6 +103,55 @@
         "favorite": false
       },
       "quantity": 1
+    },
+    "characterloadout": {
+      "templateId": "CosmeticLoadout:LoadoutSchema_Character",
+      "attributes": {
+        "slots": [],
+        "display_name": "LawinServer"
+      },
+      "quantity": 1
+    },
+    "emotesloadout": {
+      "templateId": "CosmeticLoadout:LoadoutSchema_Emotes",
+      "attributes": {
+        "slots": [],
+        "display_name": "LawinServer"
+      },
+      "quantity": 1
+    },
+    "platformloadout": {
+      "templateId": "CosmeticLoadout:LoadoutSchema_Platform",
+      "attributes": {
+        "slots": [
+          {
+            "slot_template": "CosmeticLoadoutSlotTemplate:LoadoutSlot_Banner_Icon",
+            "equipped_item": "HomebaseBannerIcon:StandardBanner1"
+          },
+          {
+            "slot_template": "CosmeticLoadoutSlotTemplate:LoadoutSlot_Banner_Color",
+            "equipped_item": "HomebaseBannerColor:DefaultColor1"
+          }
+        ],
+        "display_name": "LawinServer"
+      },
+      "quantity": 1
+    },
+    "wrapsloadout": {
+      "templateId": "CosmeticLoadout:LoadoutSchema_Wraps",
+      "attributes": {
+        "slots": [],
+        "display_name": "LawinServer"
+      },
+      "quantity": 1
+    },
+    "vehicleloadout": {
+      "templateId": "CosmeticLoadout:LoadoutSchema_Vehicle",
+      "attributes": {
+        "slots": [],
+        "display_name": "LawinServer"
+      },
+      "quantity": 1
     }
   },
   "stats": {
@@ -112,6 +161,23 @@
       "loadouts": [
         "loadout1"
       ],
+      "loadout_presets": {
+        "CosmeticLoadout:LoadoutSchema_Character": {
+          "0": "characterloadout"
+        },
+        "CosmeticLoadout:LoadoutSchema_Emotes": {
+          "0": "emotesloadout"
+        },
+        "CosmeticLoadout:LoadoutSchema_Platform": {
+          "0": "platformloadout"
+        },
+        "CosmeticLoadout:LoadoutSchema_Wraps": {
+          "0": "wrapsloadout"
+        },
+        "CosmeticLoadout:LoadoutSchema_Vehicle": {
+          "0": "vehicleloadout"
+        }
+      },
       "favorite_victorypose": "",
       "mfa_reward_claimed": false,
       "quest_manager": {
