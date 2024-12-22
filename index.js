@@ -14,7 +14,7 @@ const fixedBackendValues = {
 
 console.log("Fortnite Athena Profile Generator by Lawin v1.0.3\n");
 request.get("https://fortnite-api.com/v2/cosmetics").then(resp => {
-    let data = resp.data.data;
+    let data = resp.data.br;
 
     console.log("[GEN] Starting to generate...\n");
 
